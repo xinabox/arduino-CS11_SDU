@@ -3,7 +3,7 @@
  This example demonstrates how to use the SAMD SDU library to update a 
  sketch on an Arduino/Genuino Zero clone from XinaBox, CS11
 
- Circuit:
+ xChip:
  * CS11
 
  Steps to update sketch via SD card:
