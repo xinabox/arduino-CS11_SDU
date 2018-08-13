@@ -24,7 +24,7 @@ void loop() {
 
 ## Requirements
   - [☒Core Library](https://github.com/xinabox/xCore)
-  - [Arduino IDE 1.8.1](https://www.arduino.cc/en/main/software)
+  - [Arduino IDE](https://www.arduino.cc/en/main/software)
   - [☒CHIP CS11](https://github.com/xinabox/xCS11)
   
 ## Installation Guide

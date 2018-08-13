@@ -18,7 +18,7 @@
 
 #include <Arduino.h>
 
-#include "xSDU.h"
+#include "xCS11_SDU.h"
 
 __attribute__ ((section(".sketch_boot")))
 unsigned char sduBoot[0x4000] = {

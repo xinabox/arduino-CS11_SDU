@@ -44,11 +44,9 @@
 String message;
 
 void setup() {
-  Serial.begin(115200);
-  Serial1.begin(115200);
+  SerialUSB.begin(115200);
 
-  // wait a bit
-  delay(1000);
+  delay(5000); // wait a bit
 
   message += "Sketch compile date and time: ";
   message += __DATE__;
@@ -56,8 +54,7 @@ void setup() {
   message += __TIME__;
 
   // print out the sketch compile date and time on the serial port
-  Serial.println(message);
-  Serial1.println(message);
+  SerialUSB.println(message);
 }
 
 void loop() {
