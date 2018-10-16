@@ -16,8 +16,8 @@
   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
-#ifndef _xCS11_SDU_H
-#define _xCS11_SDU_H
+#ifndef arduino-CS11_SDU_H
+#define arduino-CS11_SDU_H
 
 // nothing for now
 

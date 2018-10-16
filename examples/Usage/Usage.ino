@@ -39,7 +39,7 @@
  running on the board. After this UPDATE.bin is deleted from the
  SD card.
 */
-#include <xCS11_SDU.h>
+#include <arduino-CS11_SDU.h>
 
 String message;
 
