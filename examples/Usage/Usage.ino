@@ -1,6 +1,6 @@
 /*
  Usage
- This example demonstrates how to use the SAMD SDU library to update a 
+ This example demonstrates how to use the SAMD SDU library to update a
  sketch on an Arduino/Genuino Zero clone from XinaBox, CS11
 
  xChip:
@@ -29,17 +29,17 @@
 */
 
 /*
- Include the SDU library 
- 
+ Include the SDU library
+
  This will add some code to the sketch before setup() is called
  to check if an SD card is present and UPDATE.bin exists on the
  SD card.
- 
+
  If UPDATE.bin is present, the file is used to update the sketch
  running on the board. After this UPDATE.bin is deleted from the
  SD card.
 */
-#include <arduino-CS11_SDU.h>
+#include <xCS11_SDU.h>
 
 String message;
 
